@@ -1,0 +1,29 @@
+.page-border {
+    border: 2px solid black;
+    width: auto;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.content {
+    text-align: left;
+    display: inline-block;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Brush Script MT", sans-serif;
+    background-color: brown;
+    color: azure;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+a {
+    font-size: 18px;
+}

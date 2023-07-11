@@ -1,8 +1,21 @@
-.page-border {
+/* .page-border {
     border: 2px solid black;
     width: auto;
     text-align: center;
     background-color: aquamarine;
+} */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #838deb;
+}
+
+.page-border {
+    width: 800px; /* 2 + 50 + 400 + 50 + 2 */
+    text-align: center;
+    background-color: #FFFAFA;
+    margin: 20px auto;
+    padding: 50px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5); 
 }
 
 .content {
@@ -12,12 +25,19 @@
 
 a:link {
     text-decoration: none;
+    background-color: rgb(229, 230, 178);
+    color: #FFFAFA;
+    display: inline-block;
+    margin: 2px auto;
+    padding: 5px;
 }
 
 h1 {
     font-family: "Brush Script MT", sans-serif;
     background-color: brown;
-    color: azure;
+    color: white;
+    margin-bottom: 25px;
+    margin-top: -5px;
 }
 
 h3 {
